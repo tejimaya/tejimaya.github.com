@@ -1,4 +1,4 @@
-tejimaya.github.com
+enterprise.pne.jp
 ===================
 
-手嶋屋サポートプラグインの一覧
+OpenPNEの法人ソリューションサイトのWEB
