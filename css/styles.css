@@ -72,7 +72,7 @@ footer {
 #construct h1,
 #case h1,
 #client h1,
-#campaign h1 {
+.campaign h1 {
     margin: 40px 0 30px 0;
     padding: 3px 0 3px 30px;
     background: url(../img/title_bullet.png) no-repeat left center;
@@ -191,7 +191,7 @@ footer {
 #news li {
     margin: 0;
     padding: 15px 0 0 0;
-    background: url(../img/news_bullet.png) no-repeat 0px 0px;
+    /*background: url(../img/news_bullet.png) no-repeat 0px 0px;*/
     list-style-type: none;
     }
 #news li h2 {
@@ -329,7 +329,7 @@ footer {
     font-size: 80%;
     }
 /* ----------campaign---------- */
-#campaign {
+.campaign {
     margin: 30px auto 0 auto;
     padding: 0 30px 20px 30px;
     width: 940px;
@@ -343,11 +343,11 @@ footer {
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
     }
-#campaign h1 {
+.campaign h1 {
     margin: 30px 0 30px 0;
     color: #336633;
     }
-#campaign h2 {
+.campaign h2 {
     padding: 20px 0 10px 0 !important;
     border-bottom: 1px solid #CCCCCC;
     color: #336633;
@@ -356,23 +356,23 @@ footer {
     line-height: 1;
     clear:right;
     }
-#campaign h3 {
+.campaign h3 {
     margin: 0;
     padding: 15px 0 10px 0;
     font-weight: 600;
     font-size: 140%;
     line-height: 1;
     }
-#campaign p.lead {
+.campaign p.lead {
     margin: 0;
     padding: 0;
     }
-#campaign p.note {
+.campaign p.note {
     margin: 0;
     padding: 5px 0 0 0;
     font-size: 80%;
     }
-#campaign .stepnum {
+.campaign .stepnum {
     display: inline-block;
     padding: 2px 6px;
     -webkit-border-radius: 2px;
@@ -382,10 +382,10 @@ footer {
     color: #FFFFFF;
     font-weight: 600;
     }
-#campaign .step {
+.campaign .step {
     background: url(../img/tri.png) no-repeat 20px center
     }
-#campaign .step li div.step_inner {
+.campaign .step li div.step_inner {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #CCCCCC;
@@ -399,18 +399,18 @@ footer {
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.055);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.055);
     }
-#campaign .step li div.step_inner p {
+.campaign .step li div.step_inner p {
     line-height: 1.5
     }
-#campaign li {
+.campaign li {
     list-style-type: none;
     font-size: 80%;
     }
-#campaign ul li {
+.campaign ul li {
     list-style-type: disc;
     font-size: 90%;
     }
-#campaign div.test1 {
+.campaign div.test1 {
     float:right;
     margin-right: 100px;
     margin-top: 30px;
